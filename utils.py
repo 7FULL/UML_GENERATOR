@@ -1,5 +1,6 @@
 import base64
 import json
+import os
 import re
 
 import requests
@@ -122,11 +123,13 @@ attributes_regular_expressions = {
 
 # Function to get the content of a repository
 def get_content(url):
+    token = os.getenv('GITHUB_TOKEN')
+
     # We replace the github.com with the api.github.com
     url = url.replace('github.com', 'api.github.com/repos')
 
     response = requests.get(url + '/contents',
-                            headers={"Authorization": "Bearer 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"})
+                            headers={"Authorization": "Bearer "+token})
 
     return response.json()
 
@@ -205,6 +208,8 @@ def generate_class_cell(class_name, methods, attributes, initial_y, expected_hei
 
 
 def get_archives(response, languages):
+    token = os.getenv('GITHUB_TOKEN')
+
     archives = []
 
     # We get the extensions of the languages
@@ -225,7 +230,7 @@ def get_archives(response, languages):
                 # We seach if its an excluded folder
                 if archive['name'] not in excluded_folders:
                     archives += get_archives(requests.get(archive['url'], headers={
-                        "Authorization": "Bearer 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"}).json(), extensions)
+                        "Authorization": "Bearer "+token}).json(), extensions)
                 else:
                     archives.append(Archive(archive, True))
         except TypeError as e:
@@ -236,6 +241,8 @@ def get_archives(response, languages):
 
 
 def get_xml(archives, languages):
+    token = os.getenv('GITHUB_TOKEN')
+
     xml = f'''<?xml version="1.0" encoding="UTF-8"?>
         <mxGraphModel dx="3312" dy="1989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
@@ -251,7 +258,7 @@ def get_xml(archives, languages):
         if not archive.excluded:
             # We do a request to github to get the content of the file
             content = requests.get(archive.element['url'],
-                                   headers={"Authorization": "Bearer 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"}).json()
+                                   headers={"Authorization": "Bearer "+token}).json()
 
             if content['encoding'] == 'base64':
                 content = content['content']
@@ -314,7 +321,7 @@ def search_attributes(class_content, language):
                       'while', 'true', 'false', 'null']
 
     valid_attributes = [attribute for attribute in attributes if not any(reserved_word in attribute.split() for reserved_word in reserved_words)]
-  
+
     return valid_attributes
 
 
