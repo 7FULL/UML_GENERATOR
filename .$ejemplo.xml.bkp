@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <mxGraphModel dx="516" dy="248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0" />
+                <mxCell id="1" parent="0" />
+        
+            <mxCell id="CrmBackendApplication.java" value="CrmBackendApplication.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="main(String[] args)_CrmBackendApplication.java" value="main(String[] args)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="CrmBackendApplication.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="CrmBackendApplication.java_separador" value="" style="line;strokeColor=none;" parent="CrmBackendApplication.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="String[] args_CrmBackendApplication.java" value="String[] args" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="CrmBackendApplication.java" vertex="1">
+                <mxGeometry x="90" y="206" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="AdminController.java" value="AdminController.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="getBills()_AdminController.java" value="getBills()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AdminController.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getClients()_AdminController.java" value="getClients()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AdminController.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getEmployees()_AdminController.java" value="getEmployees()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AdminController.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getAppointments()_AdminController.java" value="getAppointments()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AdminController.java" vertex="1">
+                <mxGeometry x="90" y="254" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="deleteBill(String id)_AdminController.java" value="deleteBill(String id)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AdminController.java" vertex="1">
+                <mxGeometry x="90" y="280" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="deleteClient(String id)_AdminController.java" value="deleteClient(String id)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AdminController.java" vertex="1">
+                <mxGeometry x="90" y="306" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="deleteEmployee(String id)_AdminController.java" value="deleteEmployee(String id)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AdminController.java" vertex="1">
+                <mxGeometry x="90" y="332" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="deleteAppointment(String id)_AdminController.java" value="deleteAppointment(String id)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AdminController.java" vertex="1">
+                <mxGeometry x="90" y="358" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="pin()_AdminController.java" value="pin()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AdminController.java" vertex="1">
+                <mxGeometry x="90" y="384" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addClient(@RequestBody Client client)_AdminController.java" value="addClient(@RequestBody Client client)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AdminController.java" vertex="1">
+                <mxGeometry x="90" y="410" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addEmployee(@RequestBody Employee employee)_AdminController.java" value="addEmployee(@RequestBody Employee employee)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AdminController.java" vertex="1">
+                <mxGeometry x="90" y="436" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="AdminController.java_separador" value="" style="line;strokeColor=none;" parent="AdminController.java" vertex="1">
+                <mxGeometry x="90" y="462" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="@RequestBody Employee employee_AdminController.java" value="@RequestBody Employee employee" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AdminController.java" vertex="1">
+                <mxGeometry x="90" y="466" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="AppointmentController.java" value="AppointmentController.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="addAppointment(Employee employee, Client client, Appointment appointment)_AppointmentController.java" value="addAppointment(Employee employee, Client client, Appointment appointment)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AppointmentController.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="pinPon()_AppointmentController.java" value="pinPon()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AppointmentController.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="AppointmentController.java_separador" value="" style="line;strokeColor=none;" parent="AppointmentController.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="_AppointmentController.java" value="" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AppointmentController.java" vertex="1">
+                <mxGeometry x="90" y="232" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="BillController.java" value="BillController.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="addBill(@RequestBody BillRequest request)_BillController.java" value="addBill(@RequestBody BillRequest request)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BillController.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="pin()_BillController.java" value="pin()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BillController.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="BillController.java_separador" value="" style="line;strokeColor=none;" parent="BillController.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="_BillController.java" value="" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BillController.java" vertex="1">
+                <mxGeometry x="90" y="232" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="ClientController.java" value="ClientController.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="insertExample()_ClientController.java" value="insertExample()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ClientController.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="pinPon()_ClientController.java" value="pinPon()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ClientController.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getExample()_ClientController.java" value="getExample()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ClientController.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="ClientController.java_separador" value="" style="line;strokeColor=none;" parent="ClientController.java" vertex="1">
+                <mxGeometry x="90" y="254" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="_ClientController.java" value="" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ClientController.java" vertex="1">
+                <mxGeometry x="90" y="258" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="Controller.java" value="Controller.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="ret(int code, Object object)_Controller.java" value="ret(int code, Object object)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Controller.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="Controller.java_separador" value="" style="line;strokeColor=none;" parent="Controller.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="int code, Object object_Controller.java" value="int code, Object object" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Controller.java" vertex="1">
+                <mxGeometry x="90" y="206" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="DocController.java" value="DocController.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="doc()_DocController.java" value="doc()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DocController.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="index()_DocController.java" value="index()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DocController.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="DocController.java_separador" value="" style="line;strokeColor=none;" parent="DocController.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="_DocController.java" value="" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DocController.java" vertex="1">
+                <mxGeometry x="90" y="232" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="EmployeeController.java" value="EmployeeController.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="login(String username, String password)_EmployeeController.java" value="login(String username, String password)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeController.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addExample()_EmployeeController.java" value="addExample()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeController.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="pinPon()_EmployeeController.java" value="pinPon()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeController.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getExample()_EmployeeController.java" value="getExample()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeController.java" vertex="1">
+                <mxGeometry x="90" y="254" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addClient(Employee employee, Client client)_EmployeeController.java" value="addClient(Employee employee, Client client)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeController.java" vertex="1">
+                <mxGeometry x="90" y="280" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="forgotPassword(String email)_EmployeeController.java" value="forgotPassword(String email)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeController.java" vertex="1">
+                <mxGeometry x="90" y="306" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="newPassword(String token, String password)_EmployeeController.java" value="newPassword(String token, String password)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeController.java" vertex="1">
+                <mxGeometry x="90" y="332" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="checkToken(String token)_EmployeeController.java" value="checkToken(String token)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeController.java" vertex="1">
+                <mxGeometry x="90" y="358" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getEmployee(String username)_EmployeeController.java" value="getEmployee(String username)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeController.java" vertex="1">
+                <mxGeometry x="90" y="384" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="EmployeeController.java_separador" value="" style="line;strokeColor=none;" parent="EmployeeController.java" vertex="1">
+                <mxGeometry x="90" y="410" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="String username_EmployeeController.java" value="String username" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeController.java" vertex="1">
+                <mxGeometry x="90" y="414" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="Logger.java" value="Logger.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="log(String response)_Logger.java" value="log(String response)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Logger.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="logError(String response)_Logger.java" value="logError(String response)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Logger.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="Logger.java_separador" value="" style="line;strokeColor=none;" parent="Logger.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="String response_Logger.java" value="String response" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Logger.java" vertex="1">
+                <mxGeometry x="90" y="232" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="MailManager.java" value="MailManager.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="sendEmail(String to, String nameTo, String subject, String text)_MailManager.java" value="sendEmail(String to, String nameTo, String subject, String text)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="MailManager.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="MailManager.java_separador" value="" style="line;strokeColor=none;" parent="MailManager.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="String to, String nameTo, String subject, String text_MailManager.java" value="String to, String nameTo, String subject, String text" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="MailManager.java" vertex="1">
+                <mxGeometry x="90" y="206" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="Appointment.java" value="Appointment.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="getDate()_Appointment.java" value="getDate()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Appointment.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setDate(Date date)_Appointment.java" value="setDate(Date date)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Appointment.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getDescription()_Appointment.java" value="getDescription()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Appointment.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setDescription(String description)_Appointment.java" value="setDescription(String description)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Appointment.java" vertex="1">
+                <mxGeometry x="90" y="254" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getClient()_Appointment.java" value="getClient()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Appointment.java" vertex="1">
+                <mxGeometry x="90" y="280" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setClient(String client)_Appointment.java" value="setClient(String client)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Appointment.java" vertex="1">
+                <mxGeometry x="90" y="306" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getEmployee()_Appointment.java" value="getEmployee()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Appointment.java" vertex="1">
+                <mxGeometry x="90" y="332" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setEmployee(String employee)_Appointment.java" value="setEmployee(String employee)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Appointment.java" vertex="1">
+                <mxGeometry x="90" y="358" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getId()_Appointment.java" value="getId()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Appointment.java" vertex="1">
+                <mxGeometry x="90" y="384" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="toString()_Appointment.java" value="toString()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Appointment.java" vertex="1">
+                <mxGeometry x="90" y="410" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="Appointment.java_separador" value="" style="line;strokeColor=none;" parent="Appointment.java" vertex="1">
+                <mxGeometry x="90" y="436" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="_Appointment.java" value="" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Appointment.java" vertex="1">
+                <mxGeometry x="90" y="440" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="Bill.java" value="Bill.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="getId()_Bill.java" value="getId()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getEmissionDate()_Bill.java" value="getEmissionDate()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setEmissionDate(Date emissionDate)_Bill.java" value="setEmissionDate(Date emissionDate)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getExpirationDate()_Bill.java" value="getExpirationDate()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="254" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setExpirationDate(Date expirationDate)_Bill.java" value="setExpirationDate(Date expirationDate)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="280" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getPrice()_Bill.java" value="getPrice()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="306" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setPrice(BigDecimal price)_Bill.java" value="setPrice(BigDecimal price)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="332" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="isPaid()_Bill.java" value="isPaid()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="358" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setPaid(boolean paid)_Bill.java" value="setPaid(boolean paid)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="384" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getClientID()_Bill.java" value="getClientID()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="410" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setClientID(String clientID)_Bill.java" value="setClientID(String clientID)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="436" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getEmployeeID()_Bill.java" value="getEmployeeID()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="462" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setEmployeeID(String employeeID)_Bill.java" value="setEmployeeID(String employeeID)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="488" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getName()_Bill.java" value="getName()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="514" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setName(String name)_Bill.java" value="setName(String name)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="540" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="toString()_Bill.java" value="toString()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="566" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="Bill.java_separador" value="" style="line;strokeColor=none;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="592" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="_Bill.java" value="" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Bill.java" vertex="1">
+                <mxGeometry x="90" y="596" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="Client.java" value="Client.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="setAppointments(Appointment[] appointments)_Client.java" value="setAppointments(Appointment[] appointments)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Client.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="toString()_Client.java" value="toString()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Client.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addAppointment(Appointment appointment)_Client.java" value="addAppointment(Appointment appointment)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Client.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addBill(Bill bill)_Client.java" value="addBill(Bill bill)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Client.java" vertex="1">
+                <mxGeometry x="90" y="254" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="Client.java_separador" value="" style="line;strokeColor=none;" parent="Client.java" vertex="1">
+                <mxGeometry x="90" y="280" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="Bill bill_Client.java" value="Bill bill" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Client.java" vertex="1">
+                <mxGeometry x="90" y="284" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="Employee.java" value="Employee.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="toString()_Employee.java" value="toString()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Employee.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addAppointment(Appointment appointment)_Employee.java" value="addAppointment(Appointment appointment)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Employee.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addClient(Client client)_Employee.java" value="addClient(Client client)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Employee.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addBill(Bill bill)_Employee.java" value="addBill(Bill bill)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Employee.java" vertex="1">
+                <mxGeometry x="90" y="254" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setBills(Bill[] bills)_Employee.java" value="setBills(Bill[] bills)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Employee.java" vertex="1">
+                <mxGeometry x="90" y="280" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setClients(Client[] clients)_Employee.java" value="setClients(Client[] clients)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Employee.java" vertex="1">
+                <mxGeometry x="90" y="306" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setAppointments(Appointment[] appointments)_Employee.java" value="setAppointments(Appointment[] appointments)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Employee.java" vertex="1">
+                <mxGeometry x="90" y="332" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="Employee.java_separador" value="" style="line;strokeColor=none;" parent="Employee.java" vertex="1">
+                <mxGeometry x="90" y="358" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="Appointment[] appointments_Employee.java" value="Appointment[] appointments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Employee.java" vertex="1">
+                <mxGeometry x="90" y="362" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="Role.java" value="Role.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="Role.java_separador" value="" style="line;strokeColor=none;" parent="Role.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="User.java" value="User.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="setToken(String token)_User.java" value="setToken(String token)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getUsername()_User.java" value="getUsername()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setUsername(String username)_User.java" value="setUsername(String username)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getPassword()_User.java" value="getPassword()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="254" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setPassword(String password)_User.java" value="setPassword(String password)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="280" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getName()_User.java" value="getName()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="306" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setName(String name)_User.java" value="setName(String name)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="332" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getSurname()_User.java" value="getSurname()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="358" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setSurname(String surname)_User.java" value="setSurname(String surname)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="384" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getEmail()_User.java" value="getEmail()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="410" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setEmail(String email)_User.java" value="setEmail(String email)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="436" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getPhone()_User.java" value="getPhone()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="462" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setPhone(String phone)_User.java" value="setPhone(String phone)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="488" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getRole()_User.java" value="getRole()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="514" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setRole(Role role)_User.java" value="setRole(Role role)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="540" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getId()_User.java" value="getId()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="566" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setId(String id)_User.java" value="setId(String id)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="592" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="toString()_User.java" value="toString()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="618" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="User.java_separador" value="" style="line;strokeColor=none;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="644" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="_User.java" value="" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="User.java" vertex="1">
+                <mxGeometry x="90" y="648" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="BillRequest.java" value="BillRequest.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="getBill()_BillRequest.java" value="getBill()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BillRequest.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getEmployee()_BillRequest.java" value="getEmployee()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BillRequest.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getClient()_BillRequest.java" value="getClient()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BillRequest.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="toString()_BillRequest.java" value="toString()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BillRequest.java" vertex="1">
+                <mxGeometry x="90" y="254" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="BillRequest.java_separador" value="" style="line;strokeColor=none;" parent="BillRequest.java" vertex="1">
+                <mxGeometry x="90" y="280" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="_BillRequest.java" value="" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BillRequest.java" vertex="1">
+                <mxGeometry x="90" y="284" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="Data.java" value="Data.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="getCode()_Data.java" value="getCode()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Data.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setCode(int code)_Data.java" value="setCode(int code)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Data.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getData()_Data.java" value="getData()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Data.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="setData(Object data)_Data.java" value="setData(Object data)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Data.java" vertex="1">
+                <mxGeometry x="90" y="254" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="toString()_Data.java" value="toString()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Data.java" vertex="1">
+                <mxGeometry x="90" y="280" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="Data.java_separador" value="" style="line;strokeColor=none;" parent="Data.java" vertex="1">
+                <mxGeometry x="90" y="306" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="_Data.java" value="" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Data.java" vertex="1">
+                <mxGeometry x="90" y="310" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="CorsPolicy.java" value="CorsPolicy.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="addCorsMappings(CorsRegistry registry)_CorsPolicy.java" value="addCorsMappings(CorsRegistry registry)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="CorsPolicy.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="CorsPolicy.java_separador" value="" style="line;strokeColor=none;" parent="CorsPolicy.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="CorsRegistry registry_CorsPolicy.java" value="CorsRegistry registry" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="CorsPolicy.java" vertex="1">
+                <mxGeometry x="90" y="206" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="DateJsonAdapter.java" value="DateJsonAdapter.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context)_DateJsonAdapter.java" value="deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DateJsonAdapter.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="serialize(Date src, Type typeOfSrc, JsonSerializationContext context)_DateJsonAdapter.java" value="serialize(Date src, Type typeOfSrc, JsonSerializationContext context)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DateJsonAdapter.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="DateJsonAdapter.java_separador" value="" style="line;strokeColor=none;" parent="DateJsonAdapter.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="Date src, Type typeOfSrc, JsonSerializationContext context_DateJsonAdapter.java" value="Date src, Type typeOfSrc, JsonSerializationContext context" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DateJsonAdapter.java" vertex="1">
+                <mxGeometry x="90" y="232" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="SecurityConfig.java" value="SecurityConfig.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="configure(HttpSecurity http)_SecurityConfig.java" value="configure(HttpSecurity http)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="SecurityConfig.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="configure(AuthenticationManagerBuilder auth)_SecurityConfig.java" value="configure(AuthenticationManagerBuilder auth)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="SecurityConfig.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="passwordEncoder()_SecurityConfig.java" value="passwordEncoder()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="SecurityConfig.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="SecurityConfig.java_separador" value="" style="line;strokeColor=none;" parent="SecurityConfig.java" vertex="1">
+                <mxGeometry x="90" y="254" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="_SecurityConfig.java" value="" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="SecurityConfig.java" vertex="1">
+                <mxGeometry x="90" y="258" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="AppointmentRepository.java" value="AppointmentRepository.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="AppointmentRepository.java_separador" value="" style="line;strokeColor=none;" parent="AppointmentRepository.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="BillRespository.java" value="BillRespository.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="BillRespository.java_separador" value="" style="line;strokeColor=none;" parent="BillRespository.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="ClientRepository.java" value="ClientRepository.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="ClientRepository.java_separador" value="" style="line;strokeColor=none;" parent="ClientRepository.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="EmployeeRepository.java" value="EmployeeRepository.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="EmployeeRepository.java_separador" value="" style="line;strokeColor=none;" parent="EmployeeRepository.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="AppointmentService.java" value="AppointmentService.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="addAppointment(Appointment appointment, Employee employee, Client client)_AppointmentService.java" value="addAppointment(Appointment appointment, Employee employee, Client client)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AppointmentService.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addAppointment(Appointment appointment)_AppointmentService.java" value="addAppointment(Appointment appointment)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AppointmentService.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="deleteAppointment(String id)_AppointmentService.java" value="deleteAppointment(String id)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AppointmentService.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="AppointmentService.java_separador" value="" style="line;strokeColor=none;" parent="AppointmentService.java" vertex="1">
+                <mxGeometry x="90" y="254" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="String id_AppointmentService.java" value="String id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AppointmentService.java" vertex="1">
+                <mxGeometry x="90" y="258" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="BillService.java" value="BillService.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="addBill(Bill bill, Employee employee, Client client)_BillService.java" value="addBill(Bill bill, Employee employee, Client client)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BillService.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="deleteBill(String id)_BillService.java" value="deleteBill(String id)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BillService.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="BillService.java_separador" value="" style="line;strokeColor=none;" parent="BillService.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="String id_BillService.java" value="String id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BillService.java" vertex="1">
+                <mxGeometry x="90" y="232" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="ClientService.java" value="ClientService.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="addClient(Client client)_ClientService.java" value="addClient(Client client)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ClientService.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addAppointment(Client client, Appointment appointment)_ClientService.java" value="addAppointment(Client client, Appointment appointment)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ClientService.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addBill(Client client, Bill bill)_ClientService.java" value="addBill(Client client, Bill bill)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ClientService.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getClient(String clientId)_ClientService.java" value="getClient(String clientId)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ClientService.java" vertex="1">
+                <mxGeometry x="90" y="254" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="deleteClient(String clientId)_ClientService.java" value="deleteClient(String clientId)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ClientService.java" vertex="1">
+                <mxGeometry x="90" y="280" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getExampleClient()_ClientService.java" value="getExampleClient()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ClientService.java" vertex="1">
+                <mxGeometry x="90" y="306" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="ClientService.java_separador" value="" style="line;strokeColor=none;" parent="ClientService.java" vertex="1">
+                <mxGeometry x="90" y="332" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="_ClientService.java" value="" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ClientService.java" vertex="1">
+                <mxGeometry x="90" y="336" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="EmployeeService.java" value="EmployeeService.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="90" y="150" width="140" height="164" as="geometry">
+                <mxRectangle x="90" y="150" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+            </mxCell>
+            <mxCell id="setBillService(BillService billService)_EmployeeService.java" value="setBillService(BillService billService)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="176" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="login(String username, String password)_EmployeeService.java" value="login(String username, String password)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="202" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addAppointment(Employee employee, Appointment appointment)_EmployeeService.java" value="addAppointment(Employee employee, Appointment appointment)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="228" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addEmployee(Employee e)_EmployeeService.java" value="addEmployee(Employee e)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="254" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getEmployee(String employeeId)_EmployeeService.java" value="getEmployee(String employeeId)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="280" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="deleteEmployee(String employeeId)_EmployeeService.java" value="deleteEmployee(String employeeId)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="306" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getExampleEmployee()_EmployeeService.java" value="getExampleEmployee()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="332" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getEmployeeByUsername(String username)_EmployeeService.java" value="getEmployeeByUsername(String username)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="358" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getEmployeeById(String id)_EmployeeService.java" value="getEmployeeById(String id)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="384" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addBill(Employee employee, Bill bill)_EmployeeService.java" value="addBill(Employee employee, Bill bill)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="410" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getEmployeeByEmail(String email)_EmployeeService.java" value="getEmployeeByEmail(String email)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="436" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="addClient(Employee employee, Client client)_EmployeeService.java" value="addClient(Employee employee, Client client)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="462" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="generateToken(Employee e)_EmployeeService.java" value="generateToken(Employee e)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="488" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="tokenHtml(String token)_EmployeeService.java" value="tokenHtml(String token)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="514" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="changePassword(Employee e, String password)_EmployeeService.java" value="changePassword(Employee e, String password)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="540" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="getEmployeeByToken(String token)_EmployeeService.java" value="getEmployeeByToken(String token)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="566" width="140" height="30" as="geometry" />
+            </mxCell>
+            <mxCell id="EmployeeService.java_separador" value="" style="line;strokeColor=none;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="592" width="140" height="1" as="geometry" />
+            </mxCell>
+            <mxCell id="String token_EmployeeService.java" value="String token" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmployeeService.java" vertex="1">
+                <mxGeometry x="90" y="596" width="140" height="30" as="geometry" />
+            </mxCell>
+            </root>
+        </mxGraphModel>
+    
